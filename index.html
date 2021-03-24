@@ -8,114 +8,186 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <img id="logo" src="" alt="Google Logo">
-        <div id="search-bar">
-            <input type="text">
-            <!--Delete button-->
-            <!--Mic button-->
-            <!--Search button-->
+    <div id="container">
+        <nav>
+            <div id="nav1">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" height="30" width="92">
+                <div id="search-bar">
+                    <input type="text" id="input-search" value="brain interface">
+                    <!--Delete button-->
+                    <!--Mic button-->
+                    <!--Search button-->
+                </div>
+            </div>
+            <div id="nav2">
+                <div id="google-apps">
+                    <svg >
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                </div>
+                <button id="btn-login">Sign in</button>
+            </div>
+        </nav>
+        <div id="search-options">
+            <div>
+                <a href="">All</a>
+                <a href="">Images</a>
+                <a href="">Videos</a>
+                <a href="">News</a>
+                <a href="">Maps</a>
+                <a href="">More</a>
+            </div>
+            <div>
+                <a href="">Settings</a>
+                <a href="">Tools</a>
+            </div>
         </div>
-        <div id="google-apps">
-            <svg >
-                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
-            </svg>
-        </div>
-        <button id="btn-login">Sign in</button>
-    </nav>
-    <div id="search-options">
-        <div>
-            <a href="">All</a>
-            <a href="">Images</a>
-            <a href="">Videos</a>
-            <a href="">News</a>
-            <a href="">Maps</a>
-            <a href="">More</a>
-        </div>
-        <div>
-            <a href="">Settings</a>
-            <a href="">Tools</a>
-        </div>
-    </div>
-    <span id="search-velocity">About 199,000,000 results (0.31 seconds) </span>
-    <div id="main-article">
-        <p>A brain-computer interface (BCI) is a computer-based system that acquires brain signals, analyzes them, and translates them into commands that are relayed to an output device to carry out a desired action. In principle, any type of brain signal could be used to control a BCI system.</p>
-        <a href="">www.ncbi.nlm.nih.gov › pmc › articles › PMC3497935 <br>
-            Brain-Computer Interfaces in Medicine - NCBI - NIH</a>
-    </div>
-    <div id="see-results-about">
-        <div class="related-result">
-            <a href="">
-                <img src="" alt="result thumbnail">
-                <h4>Brain-computer interface</h4>
-                <p>A brain-computer interface, sometimes called a neural ...</p>
+        <hr>
+        <span id="search-velocity">About 199,000,000 results (0.31 seconds) </span>
+        <div id="main-article">
+            <p>A brain-computer interface (BCI) is a computer-based system that acquires brain signals, analyzes them, and translates them into commands that are relayed to an output device to carry out a desired action. In principle, any type of brain signal could be used to control a BCI system.</p>
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.ncbi.nlm.nih.gov › pmc › articles › PMC3497935
+                </div>
+                <div class="article-link2">Brain-Computer Interfaces in Medicine - NCBI - NIH
+                </div>
             </a>
+            <hr>
         </div>
-        <div class="related-result">
-            <a href="">
-                <img src="" alt="result thumbnail">
-                <h4>Brain-brain interface</h4>
-                <p>A brain-brain interface is a direct communication pathway ...</p>
+        <div id="frequent-questions">
+            <span class="article-title">People also ask</span>
+            <p>What is brain-computer interface used for?</p>
+            <p>Is brain-computer interface possible?</p>
+            <p>Who invented brain-computer interface?</p>
+            <p>How can I learn brain-computer interface?</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    en.wikipedia.org › wiki › Brain–computer_interface
+                </div>
+                <div class="article-link2">
+                    Brain–computer interface - Wikipedia
+                </div>                
             </a>
+            <p>A brain–computer interface (BCI), sometimes called a neural control interface (NCI), mind–machine interface (MMI), direct neural interface (DNI), ...</p>
         </div>
-    </div>
-    <div id="frequent-questions">
-        <h3>People also ask</h3>
-        <h4>What is brain-computer interface used for?</h4>
-        <h4>Is brain-computer interface possible?</h4>
-        <h4>Who invented brain-computer interface?</h4>
-        <h4>How can I learn brain-computer interface?</h4>
-    </div>
-    <div class="normal-article">
-        <a href="">en.wikipedia.org › wiki › Brain–computer_interface <br>
-            Brain–computer interface - Wikipedia</a>
-        <p>A brain–computer interface (BCI), sometimes called a neural control interface (NCI), mind–machine interface (MMI), direct neural interface (DNI), ...</p>
-    </div>
-    <div id="videos-article">
-        <h3>Videos</h3>
-        <div class="video-article">
-            <img src="" alt="video thumbnail">
-            <a href="">The Brain-Computer Interface is Already HERE! And it's ...</a>
-            <span>YouTube</span>
-            <span>Tyriel Wood - VR Tech</span>
-            <span>1 month ago</span>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.rand.org › blog › articles › 2020/08 › brain-com...
+                </div>
+                <div class="article-link2">
+                    Brain-Computer Interfaces Are Coming. Will We Be Ready ...
+                </div>
+            </a>
+            <p>Aug 27, 2020 — Brain-computer interfaces give humans the ability to directly control machines with their minds. Before this emerging technology matures, ...</p>
         </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    towardsdatascience.com › a-beginners-guide-to-brain-c...
+                </div>
+                <div class="article-link2">
+                    A Beginner's Guide to Brain-Computer Interface and ...
+                </div>
+            </a>
+            <p>Brain-Computer Interface (BCI): devices that enable its users to interact with computers by mean of brain-activity only, this activity being generally measured by ...</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.nature.com › outlook › article
+                </div>
+                <div class="article-link2">
+                    The ethics of brain–computer interfaces - Nature
+                </div>
+            </a>
+            <p>Jul 24, 2019 — Interface technologies are divided into those that 'read' the brain to record brain activity and decode its meaning, and those that 'write' to the brain ...</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.nature.com › subjects › brain–machine interface
+                </div>
+                <div class="article-link2">
+                    Brain–machine interface - Latest research and news | Nature
+                </div>
+            </a>
+            <p>A brain–machine interface (BMI) is a device that translates neuronal information into commands capable of controlling external software or hardware such as a ...</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.frontiersin.org › articles › fninf.2020.00001 › full
+                </div>
+                <div class="article-link2">
+                    Optimizing Computer–Brain Interface Parameters ... - Frontiers
+                </div>
+            </a>
+            <p>by J LaRocco · 2020 · Cited by 2 — Brain-to-brain interfaces have been demonstrated with both invasive and non-invasive methods in humans and animals. A BBI is a combination ...</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.frontiersin.org › articles › fnins.2019.01177 › full
+                </div>
+                <div class="article-link2">
+                    Multi-Person Brain-To-Brain Interfaces: Ethical ... - Frontiers
+                </div>
+            </a>
+            <p>by E Hildt · 2019 · Cited by 4 — While the idea of a network of brains directly communicating via brain-to-brain interfaces (BBIs) may sound like science fiction to some, ...</p>
+        </div>
+        <div class="normal-article">
+            <a href="" class="article-link">
+                <div class="article-link1">
+                    www.technologyreview.com › humans-and-technology
+                </div>
+                <div class="article-link2">
+                    Brain-computer interface | MIT Technology Review
+                </div>
+            </a>
+            <p>A brain-computer interface means no touchpad, no keyboard, just pure thought. We look at cutting-edge research in neuroscience and computing in the quest to ...</p>
+        </div>
+        <div id="related-searches">
+            <span class="article-title">Related Searches</span>
+            <hr>
+            <div id="searches">
+                <a href="">brain interface tf2</a>
+                <a href="">brain-computer interface devices</a>
+                <a href="">brain-computer interface 2020</a>
+                <a href="">brain-computer interface applications</a>
+                <a href="">brain-computer interface valve</a>
+                <a href="">brain-computer interface gaming</a>
+                <a href="">brain-computer interface companies</a>
+                <a href="">brain-computer interface elon musk</a>
+            </div>
+            
+        </div>
+        <div id="search-pages">
+            <span id="g"></span>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+            <a href="">10</a>
+            <a href="">Next</a>
+        </div>
+        <footer>
+            <div id="foo-links">
+                <a href="">Help</a>
+                <a href="">Send Feedback</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+            </div>
+            
+        </footer>
     </div>
-    <div class="normal-article">
-        <a href="">en.wikipedia.org › wiki › Brain–computer_interface <br>
-            Brain–computer interface - Wikipedia</a>
-        <p>A brain–computer interface (BCI), sometimes called a neural control interface (NCI), mind–machine interface (MMI), direct neural interface (DNI), ...</p>
-    </div>
-    <div id="related-searches">
-        <h3>Related Searches</h3>
-        <a href="">brain interface tf2</a>
-        <a href="">brain-computer interface devices</a>
-        <a href="">brain-computer interface 2020</a>
-        <a href="">brain-computer interface applications</a>
-        <a href="">brain-computer interface valve</a>
-        <a href="">brain-computer interface gaming</a>
-        <a href="">brain-computer interface companies</a>
-        <a href="">brain-computer interface elon musk</a>
-    </div>
-    <div id="search-pages">
-        <!--G logo-->
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">4</a>
-        <a href="">5</a>
-        <a href="">6</a>
-        <a href="">7</a>
-        <a href="">8</a>
-        <a href="">9</a>
-        <a href="">10</a>
-        <a href="">Next</a>
-    </div>
-    <footer>
-        <a href="">Help</a>
-        <a href="">Send Feedback</a>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-    </footer>
 </body>
 </html>
